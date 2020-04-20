@@ -44,6 +44,7 @@ public class Sort {
             }else if(arr[middle] < key){
                 low = middle + 1;
             }else{
+                int k = 2;
                 return middle;
             }
         }
